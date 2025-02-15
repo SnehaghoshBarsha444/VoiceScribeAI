@@ -1,30 +1,78 @@
-# React + TypeScript + Vite
+# Voice Scribe AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Vercel Deployment](https://img.shields.io/badge/Deployed%20on-Vercel-blue.svg)](https://voice-scribe-ai.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/SnehaghoshBarsha444/VoiceScribeAI)
 
-Currently, two official plugins are available:
+## 📝 Overview
+Voice Scribe AI is an AI-powered speech-to-text web application designed to provide fast, accurate, and efficient transcription services. Built with cutting-edge technologies, it enables users to seamlessly convert voice recordings into text with minimal latency and high precision.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- 🎙️ **Real-time Speech-to-Text Conversion**
+- 🌍 **Multilingual Support**
+- 🔍 **High Accuracy AI Transcription**
+- 📝 **Customizable Formatting Options**
+- 🎛️ **User-friendly Interface**
 
-## Expanding the ESLint configuration
+## 🔧 Tech Stack
+- **Frontend:** React.js, Tailwind CSS
+- **Backend:** Node.js, Express.js
+- **AI Models:** Whisper AI, Google Speech-to-Text API
+- **Deployment:** Vercel
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 📦 Installation & Setup
 
-- Configure the top-level `parserOptions` property like this:
+### Prerequisites
+- Node.js (v16+)
+- npm or yarn
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+### Clone the Repository
+```bash
+git clone https://github.com/SnehaghoshBarsha444/VoiceScribeAI.git
+cd VoiceScribeAI
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Install Dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+### Run the Application
+```bash
+npm run dev
+# or
+yarn dev
+```
+The application will be available at `http://localhost:3000`
+
+## 🌍 Deployment
+Voice Scribe AI is hosted on Vercel. To deploy your own version, follow these steps:
+1. Fork the repository.
+2. Push your changes to a new branch.
+3. Connect the repo to Vercel and deploy with a single click.
+
+## 🛠️ Contributing
+We welcome contributions from the community! To contribute:
+1. Fork the repository.
+2. Create a new branch (`feature-branch`)
+3. Commit your changes and push to your fork.
+4. Open a pull request.
+
+## 📬 **Contact Information**  
+
+For inquiries or collaboration opportunities, connect via: 
+- **Email**: [Contact Me](mailto:miss.webdesigner0013@gmail.com)
+- **GitHub**: [GitHub Profile](https://github.com/SnehaghoshBarsha444)
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/sneha-ghosh-technical-isopod075/)
+- **Twitter**: [@IsopodTechnical](https://x.com/IsopodTechnical)  
+- **Medium**: [Medium Profile](https://medium.com/@Technical_Isopod_075)
+
+
+### **License**  
+
+This project is licensed under the [MIT License](LICENSE).  
+
+
+**Crafted with precision and passion by [Sneha Ghosh](https://snehaghosh-technical-isopod-portfolio.vercel.app/)**
+
